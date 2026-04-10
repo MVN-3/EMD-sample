@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0b0b0f;
+  color: #f5f5f5;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+header h1 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+nav a {
+  margin-left: 25px;
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #a855f7; /* subtle purple */
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: linear-gradient(135deg, #0b0b0f, #1a1024);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.hero p {
+  color: #bbb;
+  margin-top: 10px;
+}
+
+/* BUTTON */
+.btn {
+  margin-top: 25px;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #9333ea, #6b21a8);
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* SERVICES */
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 60px;
+}
+
+.card {
+  background: #121218;
+  padding: 30px;
+  border-radius: 16px;
+  width: 25%;
+  transition: 0.3s;
+  border: 1px solid rgba(168, 85, 247, 0.1);
+}
+
+.card h3 {
+  color: #c084fc;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border: 1px solid rgba(168, 85, 247, 0.4);
+}
+
+/* TEAM */
+.team {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.team h2 {
+  margin-bottom: 30px;
+}
+
+.team img {
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(168, 85, 247, 0.2);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #050507;
+  color: #888;
+}
